@@ -1,6 +1,7 @@
 package org.konrad.interfaces;
 
 import org.konrad.domain.Inputable;
+import org.konrad.domain.MathematicalExpressionValidator;
 
 import java.util.Scanner;
 

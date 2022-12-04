@@ -3,7 +3,7 @@ package org.konrad.domain;
 import java.util.regex.MatchResult;
 import java.util.regex.Pattern;
 
-public class MathematicalExpressionSplitter {
+class MathematicalExpressionSplitter {
 
     private static final String REGEX_PATTERN = "\\d+|[\\+\\-\\*\\/]";
 

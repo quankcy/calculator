@@ -11,7 +11,7 @@ public class Calculator {
     }
 
     public void calculate(){
-        String possibleMathExpression = inputable.getInput();
+        String possibleMathExpression = inputable.getInput().replaceAll("\\s","");
         String mathExpression = validator.validate(possibleMathExpression);
         String[] mathExpressionComponents = splitter.split(mathExpression);
         Infix infix = new Infix(mathExpressionComponents);
